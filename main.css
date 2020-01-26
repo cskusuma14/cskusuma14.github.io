@@ -117,18 +117,28 @@ main {
     background-color:gray;
     background-size: cover;
 }
-.menu{
+.indexKamar{
     width: 100%;
     height: 50vh;
 }
-.menu .seeAll{
-    float: right;
-    font-size: 12px;
-    font-style: italic;
-    color: slateblue;
+
+.kamar{
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
-.menu .menuKategori {
+.kamar ul{
+    line-height: 26px;
+    font-weight: 400;
+    padding-inline-start: 0%;
+}
+.kamar li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.indexKamar .indexKamarKategori {
     width: 80%;
     /* height: ; */
     margin: auto;
@@ -137,7 +147,7 @@ main {
     font-weight: 400;
 }
 
-.menuKategori img {
+.indexKamarKategori img {
     width: 120px;
     height: 150px;
 }
@@ -218,8 +228,7 @@ p {
 
 li {
     color: black;
-    
-    
+        
 }
 
 .headTitle{
